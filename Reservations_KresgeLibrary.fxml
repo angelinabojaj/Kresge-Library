@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#baebc6" height="135.0" layoutX="-5.0" stroke="BLACK" strokeType="INSIDE" width="1286.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#97c9a9" height="669.0" layoutY="134.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Label layoutX="221.0" layoutY="31.0" text="Kresge Library">
+         <font>
+            <Font name="System Bold" size="67.0" />
+         </font>
+      </Label>
+      <Button layoutX="32.0" layoutY="203.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="136.0" text="Books Saved">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="32.0" layoutY="266.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="136.0" text="Reservations">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="32.0" layoutY="332.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="136.0" text="Log Out">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="32.0" layoutY="451.0" prefHeight="27.0" prefWidth="147.0" text="Recently Viewed" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="499.0" prefHeight="54.0" prefWidth="127.0" text="Books recently viewed will be here" wrapText="true" />
+      <ImageView fitHeight="133.0" fitWidth="200.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Downloads/FrontKresge.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="759.0" layoutY="1.0" prefHeight="133.0" prefWidth="315.0" text="100 Library Dr, Rochester, MI 48309      &#10;248-370-2471      &#10;Mon-Fri: 7:30 am - 11:00 pm     &#10;Sat-Sun: 10:00 am - 6:00 pm" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label contentDisplay="TEXT_ONLY" layoutX="366.0" layoutY="242.0" prefHeight="512.0" prefWidth="766.0" text="Output Goes Here" />
+      <Button layoutX="231.0" layoutY="158.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="49.0" text="←">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Button>
+      <Label layoutX="366.0" layoutY="158.0" text="Room Reservations">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
